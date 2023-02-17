@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.0](https://github.com/phated/acvm/compare/root-v0.4.1...root-v0.5.0) (2023-02-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* **acir:** make PublicInputs use a BTreeSet rather than Vec ([#99](https://github.com/phated/acvm/issues/99))
+* refactor ToRadix to ToRadixLe and ToRadixBe ([#58](https://github.com/phated/acvm/issues/58))
+* **acir:** Add keccak256 Opcode ([#91](https://github.com/phated/acvm/issues/91))
+* Reorganiser compiler in terms of optimisers and transformers ([#88](https://github.com/phated/acvm/issues/88))
+
+### Features
+
+* **acir:** Add keccak256 Opcode ([#91](https://github.com/phated/acvm/issues/91)) ([b909146](https://github.com/phated/acvm/commit/b9091461e199bacdd073cc9b31f03dade0b4fb2d))
+* **acir:** make PublicInputs use a BTreeSet rather than Vec ([#99](https://github.com/phated/acvm/issues/99)) ([53666b7](https://github.com/phated/acvm/commit/53666b782d89c65cd755f9e4ded2c9cf5a141e46))
+* **ci:** Add release workflow ([#89](https://github.com/phated/acvm/issues/89)) ([db8e828](https://github.com/phated/acvm/commit/db8e828341f59241ef7f437c908277fb8fbca9e3))
+* **ci:** Publish crates upon release ([427d446](https://github.com/phated/acvm/commit/427d4468da8fb934895acce5c39f975a2c494655))
+* Update Arkworks' dependencies on `acir_field` ([#69](https://github.com/phated/acvm/issues/69)) ([65d6130](https://github.com/phated/acvm/commit/65d61307a12f25e04afad2d50e4c4db5ce97dd8c))
+
+
+### Bug Fixes
+
+* Clean up Log Directive hex output  ([#97](https://github.com/phated/acvm/issues/97)) ([d23c735](https://github.com/phated/acvm/commit/d23c7352523ffb42f3e8f4229b61f9803ab78a7e))
+
+
+### Miscellaneous Chores
+
+* refactor ToRadix to ToRadixLe and ToRadixBe ([#58](https://github.com/phated/acvm/issues/58)) ([2427a27](https://github.com/phated/acvm/commit/2427a275048e598c6d651cce8348a4c55148f235))
+* Reorganiser compiler in terms of optimisers and transformers ([#88](https://github.com/phated/acvm/issues/88)) ([9329307](https://github.com/phated/acvm/commit/9329307e054de202cfc55207162ad952b70d515e))
+
 ## [0.4.1] - 2023-02-08
 
 ### Added
